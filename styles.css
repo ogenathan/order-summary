@@ -1,0 +1,127 @@
+body{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color:hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(225, 31%, 55%);
+}
+.attribution{
+    margin-top: 20px;
+}
+
+.order-summary-title ,.annual-plan h5{
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+.center-card{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 6rem;
+    width: 30vw;  
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px; 
+}
+
+
+.img-hero{
+    background-image: url("images/illustration-hero.svg");
+    background-repeat: repeat-x;
+    width:100%;
+    min-height: 40vh;
+    border-radius: 20px; 
+     
+}
+.order-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 1px 6px hsl(225, 100%, 98%);
+
+}
+
+.order-summary{
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.plan-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    justify-content: space-around;
+    background-color: hsl(225, 100%, 97%);
+    margin: 30px;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+
+.annual{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+}
+
+.annual-plan{
+   line-height: 0.3rem;
+}
+
+.order{
+    width: 30vw;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+.order .btn{
+    padding: 5px;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    background-color: hsl(245, 75%, 55%);
+    color: white;
+    padding-right: 30px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 12px;
+
+}
+.cancel{
+    margin: 30px 0;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    
+}
+
+.btn:hover{
+    color: black;
+    font-weight: 700;
+    box-shadow: 1px 1px 6px white;
+}
+
+a:hover{
+    box-shadow: 1px 1px 6px white;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}   
+/*Mobile Section*/
+
+@media screen and (max-width: 992px){
+    .center-card{
+        width: 80vw;
+    }
+    .order{
+        width:80vw;
+    }
+}
+
